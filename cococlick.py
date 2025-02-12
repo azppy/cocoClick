@@ -3,7 +3,7 @@ import time
 import csv
 
 def cococlick():
-    positions_file = 'click_positions.csv'
+    positions_file = 'clicks.csv'
     click_data = []
 
     try:

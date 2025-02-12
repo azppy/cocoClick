@@ -39,7 +39,7 @@ with MouseListener(on_click=on_click) as listener:
         keyboard_listener.join()  # qキーが押されるのを待機
 
 # リスナー終了後、CSVに書き込む
-with open('click_positions.csv', mode='w', newline='') as file:
+with open('clicks.csv', mode='w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(['X', 'Y', 'Interval'])  # ヘッダーを追加
     writer.writerows(click_data)  # 全データを書き込む
