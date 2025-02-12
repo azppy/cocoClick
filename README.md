@@ -15,7 +15,7 @@ poetry install
 getxyt.py を実行し、記録したい場所をクリックします。
 
 ```sh
-python getxyt.py
+poetry run python getxyt.py
 ```
 クリックしたモニターの座標と間隔が clicks.csv に保存されます。
 
@@ -24,7 +24,7 @@ python getxyt.py
 cococlick.py を実行すると、記録したクリック動作が再現されます。
 
 ```sh
-python cococlick.py
+poetry run python cococlick.py
 ```
 
 ### ◾️ ファイル構成
