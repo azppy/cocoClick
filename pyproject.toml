@@ -2,7 +2,7 @@
 name = "cococlick"
 version = "0.1.0"
 description = ""
-authors = ["az <azuzu510@gmail.com>"]
+authors = ["az"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
